@@ -1,1 +1,1 @@
-web: gunicorn main.py:reece-russell-website
+web: gunicorn main:reece-russell-website --log-file=-
