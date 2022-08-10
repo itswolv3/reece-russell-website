@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, send_file
+from flask import Flask, render_template, send_file
 from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
